@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.calculator {
+  width: 550px;
+}
+
+.display-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.display {
+  width: 75%;
+}
+
+.other-btns {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-btns > button {
+  height: 100px;
+  width: 100%;
+}
+
+.AC-btn {
+  margin-top: 10px;
+}
+
+/* Display and Answer Field */
+.input-field {
+  width: 100%;               /* Full width of the container */
+  height: 120px;             /* Increase height for more space */
+  padding: 20px;             /* Add padding for spacing */
+  font-size: 40px;           /* Increase font size for better readability */
+  border: none;              /* Remove the border */
+  border-radius: 15px;       /* Rounded corners for modern look */
+  background: #f3f3f3;       /* Light background color */
+  text-align: right;         /* Align the text to the right */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  outline: none;             /* Remove the outline when the input is focused */
+  overflow-x: auto;          /* Allow horizontal scroll if content overflows */
+  overflow-y: hidden;        /* Hide vertical overflow */
+}
+
+/* Add a transition for a smooth hover effect */
+.input-field:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+  background: #e8e8e8;       /* Slightly darker background on hover */
+}
+
+
+/*.answer-field {
+  margin-top: 10px;
+}*/
+
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.btn-container {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Button Styling */
+button {
+  width: 24%;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  background: white;
+  border: none;
+  border-radius: 50px; /* Buttons are round */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255); /* White on hover */
+  color: black;
+}
+
+button:active {
+  background: rgb(219, 141, 24);
+}
+
+/* Custom Color Classes */
+.colored-btn {
+  background-color: gold; /* Default background: Gold */
+  color: black;
+}
+
+.colored-btn:active {
+  background-color: orange; /* Active state: Orange */
+  color: white;
+}
+
+/* Span-two button */
+.span-two {
+  width: 50%;
+}
+
+/* Other Buttons Styling */
+.other-btns > button {
+  border-radius: 50px; /* Rounded buttons */
+}
+
+.AC-btn {
+  margin-top: 10px;
+  background-color: yellow; /* AC Button Yellow */
+  color: black;
+}
+
+/* Toggle button example */
+.toggle-btn {
+  background-color: gold; /* Default gold */
+  color: black;
+}
+
+.toggle-btn.toggled {
+  background-color: orange; /* Toggle to orange */
+  color: black;
+}
+/* Flexbox for aligning items side by side */
+.side-by-side {
+  display: flex;              /* Enables Flexbox */
+  justify-content: space-between; /* Distributes items horizontally with space between them */
+  align-items: center;        /* Aligns items vertically in the center */
+  width: 100%;                /* Ensures it takes up full width of the container */
+  padding: 10px;              /* Adds a bit of padding for spacing */
+}
+
+/* Ensures the text is white (as already applied) */
+.text-white {
+  color: rgb(219, 117, 16);
+}
