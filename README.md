@@ -1,5 +1,7 @@
 **Shreya Nandhivargam's React Calculator**
 
+<img width="823" alt="Screenshot 2024-10-08 at 4 16 09 PM" src="https://github.com/user-attachments/assets/4d9c30e9-4d14-4f6b-8f0e-103c06fad8da">
+
 This is a flexible calculator app built by Shreya Nandhivargam using React. It allows users to perform basic arithmetic operations with a clean interface and additional features like calculation history and dynamic date display.
 
 https://67044f7603b28f43eab2a405--glittery-shortbread-36d462.netlify.app/
