@@ -2,6 +2,8 @@
 
 This is a flexible calculator app built by Shreya Nandhivargam using React. It allows users to perform basic arithmetic operations with a clean interface and additional features like calculation history and dynamic date display.
 
+https://67044f7603b28f43eab2a405--glittery-shortbread-36d462.netlify.app/
+
 ******Features******
 
 Basic Arithmetic: Perform addition, subtraction, multiplication, and division.
